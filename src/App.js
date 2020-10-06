@@ -1,26 +1,47 @@
 import React from 'react';
-import logo from './logo.svg';
+import {
+  BrowserRouter as Router,
+  Route,
+  Link,
+  Switch
+} from 'react-router-dom';
 import './App.css';
+import PostList from './postForm';
+import ReadList from './readList';
+// var cors = require('cors')
+// import TreeMenu from 'react-simple-tree-menu';
+// import ReactTree from './reactTree';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+
+class App extends React.Component {
+  render() {
+    return (
+      <div>
+        <p>Welcome to {process.env.REACT_APP_BASE_URL}</p>
+        <Router>
+          <div className="">
+            <ul className="">
+              <li>
+                <Link to="/">Read Category List</Link>
+              </li>
+              <li>
+                <Link to="/save">Save Category</Link>
+              </li>
+            </ul>
+            <hr />
+            <Switch>
+              <Route exact path='/' component={ReadList}></Route>
+              <Route exact path='/save' component={PostList}></Route>
+              <Route exact path='/read' component={ReadList}></Route>
+            </Switch>
+          </div>
+        </Router>
+      </div>
+    );
+  }
 }
+
+// ReactDOM.render(<Provider store={store}><App /></Provider>, document.getElementById('root'));
 
 export default App;

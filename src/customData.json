@@ -1,0 +1,5427 @@
+{
+    "data": [
+        {
+            "asset_category_id": [
+                182,
+                "Building"
+            ],
+            "id": 9102,
+            "is_booking_allowed": false,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WBL",
+            "parent_id": false,
+            "path_name": "WMB/WBL",
+            "sequence_asset_hierarchy": "WMB-A-00001",
+            "space_name": "Water Mark Building",
+            "space_status": "Ready",
+            "sub_type_id": [
+                18,
+                "Commercial Building Venue"
+            ],
+            "type_id": [
+                7,
+                "Venue"
+            ]
+        },
+        {
+            "asset_category_id": [
+                183,
+                "Floor"
+            ],
+            "id": 9104,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "F#10",
+            "parent_id": [
+                9102,
+                "WMB/WBL"
+            ],
+            "path_name": "WMB/WBL/F#10",
+            "sequence_asset_hierarchy": "WMB-A-00003",
+            "space_name": "Floor #10",
+            "space_status": "Ready",
+            "sub_type_id": [
+                2,
+                "Breakout Area"
+            ],
+            "type_id": [
+                2,
+                "Floor"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9105,
+            "is_booking_allowed": false,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "CR#1",
+            "parent_id": [
+                9536,
+                "WMB/WBL/F#10/CR"
+            ],
+            "path_name": "WMB/WBL/F#10/CR/CR#1",
+            "sequence_asset_hierarchy": "WMB-A-00004",
+            "space_name": "Conference Room #1",
+            "space_status": "Ready",
+            "sub_type_id": [
+                54,
+                "Conference Room"
+            ],
+            "type_id": [
+                10,
+                "Room"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9106,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "CR#2",
+            "parent_id": [
+                9536,
+                "WMB/WBL/F#10/CR"
+            ],
+            "path_name": "WMB/WBL/F#10/CR/CR#2",
+            "sequence_asset_hierarchy": "WMB-A-00005",
+            "space_name": "Conference Room #2",
+            "space_status": "Occupied",
+            "sub_type_id": [
+                54,
+                "Conference Room"
+            ],
+            "type_id": [
+                10,
+                "Room"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9107,
+            "is_booking_allowed": false,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "RCR",
+            "parent_id": [
+                9104,
+                "WMB/WBL/F#10"
+            ],
+            "path_name": "WMB/WBL/F#10/RCR",
+            "sequence_asset_hierarchy": "WMB-A-00006",
+            "space_name": "Recreation Room",
+            "space_status": "Ready",
+            "sub_type_id": [
+                42,
+                "Other Area"
+            ],
+            "type_id": [
+                10,
+                "Room"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9108,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "SR",
+            "parent_id": [
+                9104,
+                "WMB/WBL/F#10"
+            ],
+            "path_name": "WMB/WBL/F#10/SR",
+            "sequence_asset_hierarchy": "WMB-A-00007",
+            "space_name": "Server Room",
+            "space_status": "Occupied",
+            "sub_type_id": [
+                69,
+                "Server Room"
+            ],
+            "type_id": [
+                10,
+                "Room"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9109,
+            "is_booking_allowed": false,
+            "maintenance_team_id": [
+                543,
+                "Electrician"
+            ],
+            "name": "UPS Room",
+            "parent_id": [
+                9104,
+                "WMB/WBL/F#10"
+            ],
+            "path_name": "WMB/WBL/F#10/UPS Room",
+            "sequence_asset_hierarchy": "WMB-A-00008",
+            "space_name": "UPS Room",
+            "space_status": "Ready",
+            "sub_type_id": [
+                63,
+                "Multipurpose Room"
+            ],
+            "type_id": [
+                10,
+                "Room"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9110,
+            "is_booking_allowed": false,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#1",
+            "parent_id": [
+                9543,
+                "WMB/WBL/F#10/WS/Z#1/Row#1"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#1/Row#1/WS#1",
+            "sequence_asset_hierarchy": "WMB-A-00009",
+            "space_name": "Work Station #1",
+            "space_status": "Maintenance in Progress",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9111,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#2",
+            "parent_id": [
+                9543,
+                "WMB/WBL/F#10/WS/Z#1/Row#1"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#1/Row#1/WS#2",
+            "sequence_asset_hierarchy": "WMB-A-00010",
+            "space_name": "Work Station #2",
+            "space_status": "Maintenance in Progress",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9112,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#3",
+            "parent_id": [
+                9543,
+                "WMB/WBL/F#10/WS/Z#1/Row#1"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#1/Row#1/WS#3",
+            "sequence_asset_hierarchy": "WMB-A-00011",
+            "space_name": "Work Station #3",
+            "space_status": "Maintenance in Progress",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9113,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#4",
+            "parent_id": [
+                9543,
+                "WMB/WBL/F#10/WS/Z#1/Row#1"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#1/Row#1/WS#4",
+            "sequence_asset_hierarchy": "WMB-A-00012",
+            "space_name": "Work Station #4",
+            "space_status": "Maintenance in Progress",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9114,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#5",
+            "parent_id": [
+                9543,
+                "WMB/WBL/F#10/WS/Z#1/Row#1"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#1/Row#1/WS#5",
+            "sequence_asset_hierarchy": "WMB-A-00013",
+            "space_name": "Work Station #5",
+            "space_status": "Maintenance in Progress",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9115,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#6",
+            "parent_id": [
+                9543,
+                "WMB/WBL/F#10/WS/Z#1/Row#1"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#1/Row#1/WS#6",
+            "sequence_asset_hierarchy": "WMB-A-00014",
+            "space_name": "Work Station #6",
+            "space_status": "Maintenance in Progress",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9116,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#7",
+            "parent_id": [
+                9543,
+                "WMB/WBL/F#10/WS/Z#1/Row#1"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#1/Row#1/WS#7",
+            "sequence_asset_hierarchy": "WMB-A-00015",
+            "space_name": "Work Station #7",
+            "space_status": "Maintenance in Progress",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9117,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#8",
+            "parent_id": [
+                9544,
+                "WMB/WBL/F#10/WS/Z#1/Row#2"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#1/Row#2/WS#8",
+            "sequence_asset_hierarchy": "WMB-A-00016",
+            "space_name": "Work Station #8",
+            "space_status": "Maintenance in Progress",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9118,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#9",
+            "parent_id": [
+                9544,
+                "WMB/WBL/F#10/WS/Z#1/Row#2"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#1/Row#2/WS#9",
+            "sequence_asset_hierarchy": "WMB-A-00017",
+            "space_name": "Work Station #9",
+            "space_status": "Maintenance in Progress",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9259,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#10",
+            "parent_id": [
+                9544,
+                "WMB/WBL/F#10/WS/Z#1/Row#2"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#1/Row#2/WS#10",
+            "sequence_asset_hierarchy": "WMB-A-00018",
+            "space_name": "Work Station #10",
+            "space_status": "Maintenance in Progress",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9398,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#11",
+            "parent_id": [
+                9544,
+                "WMB/WBL/F#10/WS/Z#1/Row#2"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#1/Row#2/WS#11",
+            "sequence_asset_hierarchy": "WMB-A-00019",
+            "space_name": "Work Station #11",
+            "space_status": "Maintenance in Progress",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9399,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#12",
+            "parent_id": [
+                9544,
+                "WMB/WBL/F#10/WS/Z#1/Row#2"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#1/Row#2/WS#12",
+            "sequence_asset_hierarchy": "WMB-A-00020",
+            "space_name": "Work Station #12",
+            "space_status": "Maintenance in Progress",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9400,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#13",
+            "parent_id": [
+                9544,
+                "WMB/WBL/F#10/WS/Z#1/Row#2"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#1/Row#2/WS#13",
+            "sequence_asset_hierarchy": "WMB-A-00021",
+            "space_name": "Work Station #13",
+            "space_status": "Maintenance in Progress",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9401,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#14",
+            "parent_id": [
+                9545,
+                "WMB/WBL/F#10/WS/Z#1/Row#3"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#1/Row#3/WS#14",
+            "sequence_asset_hierarchy": "WMB-A-00022",
+            "space_name": "Work Station #14",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9402,
+            "is_booking_allowed": false,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#15",
+            "parent_id": [
+                9545,
+                "WMB/WBL/F#10/WS/Z#1/Row#3"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#1/Row#3/WS#15",
+            "sequence_asset_hierarchy": "WMB-A-00023",
+            "space_name": "Work Station #15",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9403,
+            "is_booking_allowed": false,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#16",
+            "parent_id": [
+                9545,
+                "WMB/WBL/F#10/WS/Z#1/Row#3"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#1/Row#3/WS#16",
+            "sequence_asset_hierarchy": "WMB-A-00024",
+            "space_name": "Work Station #16",
+            "space_status": "Occupied",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9404,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#17",
+            "parent_id": [
+                9545,
+                "WMB/WBL/F#10/WS/Z#1/Row#3"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#1/Row#3/WS#17",
+            "sequence_asset_hierarchy": "WMB-A-00025",
+            "space_name": "Work Station #17",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9405,
+            "is_booking_allowed": false,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#18",
+            "parent_id": [
+                9546,
+                "WMB/WBL/F#10/WS/Z#1/Row#4"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#1/Row#4/WS#18",
+            "sequence_asset_hierarchy": "WMB-A-00026",
+            "space_name": "Work Station #18",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9406,
+            "is_booking_allowed": false,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#19",
+            "parent_id": [
+                9546,
+                "WMB/WBL/F#10/WS/Z#1/Row#4"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#1/Row#4/WS#19",
+            "sequence_asset_hierarchy": "WMB-A-00027",
+            "space_name": "Work Station #19",
+            "space_status": "Maintenance in Progress",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9407,
+            "is_booking_allowed": false,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#20",
+            "parent_id": [
+                9546,
+                "WMB/WBL/F#10/WS/Z#1/Row#4"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#1/Row#4/WS#20",
+            "sequence_asset_hierarchy": "WMB-A-00028",
+            "space_name": "Work Station #20",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9408,
+            "is_booking_allowed": false,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#21",
+            "parent_id": [
+                9546,
+                "WMB/WBL/F#10/WS/Z#1/Row#4"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#1/Row#4/WS#21",
+            "sequence_asset_hierarchy": "WMB-A-00029",
+            "space_name": "Work Station #21",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9409,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#22",
+            "parent_id": [
+                9546,
+                "WMB/WBL/F#10/WS/Z#1/Row#4"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#1/Row#4/WS#22",
+            "sequence_asset_hierarchy": "WMB-A-00030",
+            "space_name": "Work Station #22",
+            "space_status": "Maintenance in Progress",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9410,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#23",
+            "parent_id": [
+                9547,
+                "WMB/WBL/F#10/WS/Z#1/Row#5"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#1/Row#5/WS#23",
+            "sequence_asset_hierarchy": "WMB-A-00031",
+            "space_name": "Work Station #23",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9411,
+            "is_booking_allowed": false,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#24",
+            "parent_id": [
+                9547,
+                "WMB/WBL/F#10/WS/Z#1/Row#5"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#1/Row#5/WS#24",
+            "sequence_asset_hierarchy": "WMB-A-00032",
+            "space_name": "Work Station #24",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9412,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#25",
+            "parent_id": [
+                9547,
+                "WMB/WBL/F#10/WS/Z#1/Row#5"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#1/Row#5/WS#25",
+            "sequence_asset_hierarchy": "WMB-A-00033",
+            "space_name": "Work Station #25",
+            "space_status": "Maintenance in Progress",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9413,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#26",
+            "parent_id": [
+                9547,
+                "WMB/WBL/F#10/WS/Z#1/Row#5"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#1/Row#5/WS#26",
+            "sequence_asset_hierarchy": "WMB-A-00034",
+            "space_name": "Work Station #26",
+            "space_status": "Maintenance in Progress",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9414,
+            "is_booking_allowed": false,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#27",
+            "parent_id": [
+                9547,
+                "WMB/WBL/F#10/WS/Z#1/Row#5"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#1/Row#5/WS#27",
+            "sequence_asset_hierarchy": "WMB-A-00035",
+            "space_name": "Work Station #27",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9415,
+            "is_booking_allowed": false,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#28",
+            "parent_id": [
+                9547,
+                "WMB/WBL/F#10/WS/Z#1/Row#5"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#1/Row#5/WS#28",
+            "sequence_asset_hierarchy": "WMB-A-00036",
+            "space_name": "Work Station #28",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9416,
+            "is_booking_allowed": false,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#29",
+            "parent_id": [
+                9548,
+                "WMB/WBL/F#10/WS/Z#1/Row#6"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#1/Row#6/WS#29",
+            "sequence_asset_hierarchy": "WMB-A-00037",
+            "space_name": "Work Station #29",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9417,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#30",
+            "parent_id": [
+                9548,
+                "WMB/WBL/F#10/WS/Z#1/Row#6"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#1/Row#6/WS#30",
+            "sequence_asset_hierarchy": "WMB-A-00038",
+            "space_name": "Work Station #30",
+            "space_status": "Maintenance in Progress",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9418,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#31",
+            "parent_id": [
+                9548,
+                "WMB/WBL/F#10/WS/Z#1/Row#6"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#1/Row#6/WS#31",
+            "sequence_asset_hierarchy": "WMB-A-00039",
+            "space_name": "Work Station #31",
+            "space_status": "Occupied",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                10,
+                "Room"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9419,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#32",
+            "parent_id": [
+                9548,
+                "WMB/WBL/F#10/WS/Z#1/Row#6"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#1/Row#6/WS#32",
+            "sequence_asset_hierarchy": "WMB-A-00040",
+            "space_name": "Work Station #32",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9420,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#33",
+            "parent_id": [
+                9548,
+                "WMB/WBL/F#10/WS/Z#1/Row#6"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#1/Row#6/WS#33",
+            "sequence_asset_hierarchy": "WMB-A-00041",
+            "space_name": "Work Station #33",
+            "space_status": "Maintenance in Progress",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9421,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#34",
+            "parent_id": [
+                9548,
+                "WMB/WBL/F#10/WS/Z#1/Row#6"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#1/Row#6/WS#34",
+            "sequence_asset_hierarchy": "WMB-A-00042",
+            "space_name": "Work Station #34",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9422,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#35",
+            "parent_id": [
+                9548,
+                "WMB/WBL/F#10/WS/Z#1/Row#6"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#1/Row#6/WS#35",
+            "sequence_asset_hierarchy": "WMB-A-00043",
+            "space_name": "Work Station #35",
+            "space_status": "Maintenance in Progress",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9423,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#36",
+            "parent_id": [
+                9549,
+                "WMB/WBL/F#10/WS/Z#1/Row#7"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#1/Row#7/WS#36",
+            "sequence_asset_hierarchy": "WMB-A-00044",
+            "space_name": "Work Station #36",
+            "space_status": "Maintenance in Progress",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9424,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#37",
+            "parent_id": [
+                9549,
+                "WMB/WBL/F#10/WS/Z#1/Row#7"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#1/Row#7/WS#37",
+            "sequence_asset_hierarchy": "WMB-A-00045",
+            "space_name": "Work Station #37",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9425,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#38",
+            "parent_id": [
+                9549,
+                "WMB/WBL/F#10/WS/Z#1/Row#7"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#1/Row#7/WS#38",
+            "sequence_asset_hierarchy": "WMB-A-00046",
+            "space_name": "Work Station #38",
+            "space_status": "Maintenance in Progress",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9426,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#39",
+            "parent_id": [
+                9549,
+                "WMB/WBL/F#10/WS/Z#1/Row#7"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#1/Row#7/WS#39",
+            "sequence_asset_hierarchy": "WMB-A-00047",
+            "space_name": "Work Station #39",
+            "space_status": "Maintenance in Progress",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9427,
+            "is_booking_allowed": false,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#40",
+            "parent_id": [
+                9549,
+                "WMB/WBL/F#10/WS/Z#1/Row#7"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#1/Row#7/WS#40",
+            "sequence_asset_hierarchy": "WMB-A-00048",
+            "space_name": "Work Station #40",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9428,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#41",
+            "parent_id": [
+                9549,
+                "WMB/WBL/F#10/WS/Z#1/Row#7"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#1/Row#7/WS#41",
+            "sequence_asset_hierarchy": "WMB-A-00049",
+            "space_name": "Work Station #41",
+            "space_status": "Maintenance in Progress",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9429,
+            "is_booking_allowed": false,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#42",
+            "parent_id": [
+                9549,
+                "WMB/WBL/F#10/WS/Z#1/Row#7"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#1/Row#7/WS#42",
+            "sequence_asset_hierarchy": "WMB-A-00050",
+            "space_name": "Work Station #42",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9430,
+            "is_booking_allowed": false,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#43",
+            "parent_id": [
+                9550,
+                "WMB/WBL/F#10/WS/Z#1/Row#8"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#1/Row#8/WS#43",
+            "sequence_asset_hierarchy": "WMB-A-00051",
+            "space_name": "Work Station #43",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9431,
+            "is_booking_allowed": false,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#44",
+            "parent_id": [
+                9550,
+                "WMB/WBL/F#10/WS/Z#1/Row#8"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#1/Row#8/WS#44",
+            "sequence_asset_hierarchy": "WMB-A-00052",
+            "space_name": "Work Station #44",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9432,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#45",
+            "parent_id": [
+                9550,
+                "WMB/WBL/F#10/WS/Z#1/Row#8"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#1/Row#8/WS#45",
+            "sequence_asset_hierarchy": "WMB-A-00053",
+            "space_name": "Work Station #45",
+            "space_status": "Maintenance in Progress",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9433,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#46",
+            "parent_id": [
+                9550,
+                "WMB/WBL/F#10/WS/Z#1/Row#8"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#1/Row#8/WS#46",
+            "sequence_asset_hierarchy": "WMB-A-00054",
+            "space_name": "Work Station #46",
+            "space_status": "Maintenance in Progress",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9434,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#47",
+            "parent_id": [
+                9550,
+                "WMB/WBL/F#10/WS/Z#1/Row#8"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#1/Row#8/WS#47",
+            "sequence_asset_hierarchy": "WMB-A-00055",
+            "space_name": "Work Station #47",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9435,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#48",
+            "parent_id": [
+                9550,
+                "WMB/WBL/F#10/WS/Z#1/Row#8"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#1/Row#8/WS#48",
+            "sequence_asset_hierarchy": "WMB-A-00056",
+            "space_name": "Work Station #48",
+            "space_status": "Maintenance in Progress",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9436,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#49",
+            "parent_id": [
+                9550,
+                "WMB/WBL/F#10/WS/Z#1/Row#8"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#1/Row#8/WS#49",
+            "sequence_asset_hierarchy": "WMB-A-00057",
+            "space_name": "Work Station #49",
+            "space_status": "Maintenance in Progress",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9438,
+            "is_booking_allowed": false,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#51",
+            "parent_id": [
+                9551,
+                "WMB/WBL/F#10/WS/Z#2/Row#1"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#1/WS#51",
+            "sequence_asset_hierarchy": "WMB-A-00059",
+            "space_name": "Work Station #51",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9439,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#52",
+            "parent_id": [
+                9551,
+                "WMB/WBL/F#10/WS/Z#2/Row#1"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#1/WS#52",
+            "sequence_asset_hierarchy": "WMB-A-00060",
+            "space_name": "Work Station #52",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9440,
+            "is_booking_allowed": false,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#53",
+            "parent_id": [
+                9551,
+                "WMB/WBL/F#10/WS/Z#2/Row#1"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#1/WS#53",
+            "sequence_asset_hierarchy": "WMB-A-00061",
+            "space_name": "Work Station #53",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9441,
+            "is_booking_allowed": false,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#54",
+            "parent_id": [
+                9551,
+                "WMB/WBL/F#10/WS/Z#2/Row#1"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#1/WS#54",
+            "sequence_asset_hierarchy": "WMB-A-00062",
+            "space_name": "Work Station #54",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                185,
+                "Space"
+            ],
+            "id": 9442,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#55",
+            "parent_id": [
+                9551,
+                "WMB/WBL/F#10/WS/Z#2/Row#1"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#1/WS#55",
+            "sequence_asset_hierarchy": "WMB-A-00063",
+            "space_name": "Work Station #55",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9443,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#56",
+            "parent_id": [
+                9551,
+                "WMB/WBL/F#10/WS/Z#2/Row#1"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#1/WS#56",
+            "sequence_asset_hierarchy": "WMB-A-00064",
+            "space_name": "Work Station #56",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9444,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#57",
+            "parent_id": [
+                9552,
+                "WMB/WBL/F#10/WS/Z#2/Row#2"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#2/WS#57",
+            "sequence_asset_hierarchy": "WMB-A-00065",
+            "space_name": "Work Station #57",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9445,
+            "is_booking_allowed": false,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#58",
+            "parent_id": [
+                9552,
+                "WMB/WBL/F#10/WS/Z#2/Row#2"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#2/WS#58",
+            "sequence_asset_hierarchy": "WMB-A-00066",
+            "space_name": "Work Station #58",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9446,
+            "is_booking_allowed": false,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#59",
+            "parent_id": [
+                9552,
+                "WMB/WBL/F#10/WS/Z#2/Row#2"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#2/WS#59",
+            "sequence_asset_hierarchy": "WMB-A-00067",
+            "space_name": "Work Station #59",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9447,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#60",
+            "parent_id": [
+                9552,
+                "WMB/WBL/F#10/WS/Z#2/Row#2"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#2/WS#60",
+            "sequence_asset_hierarchy": "WMB-A-00068",
+            "space_name": "Work Station #60",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9448,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#61",
+            "parent_id": [
+                9552,
+                "WMB/WBL/F#10/WS/Z#2/Row#2"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#2/WS#61",
+            "sequence_asset_hierarchy": "WMB-A-00069",
+            "space_name": "Work Station #61",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9449,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#62",
+            "parent_id": [
+                9553,
+                "WMB/WBL/F#10/WS/Z#2/Row#3"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#3/WS#62",
+            "sequence_asset_hierarchy": "WMB-A-00070",
+            "space_name": "Work Station #62",
+            "space_status": "Occupied",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9450,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#63",
+            "parent_id": [
+                9553,
+                "WMB/WBL/F#10/WS/Z#2/Row#3"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#3/WS#63",
+            "sequence_asset_hierarchy": "WMB-A-00071",
+            "space_name": "Work Station #63",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9451,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#64",
+            "parent_id": [
+                9553,
+                "WMB/WBL/F#10/WS/Z#2/Row#3"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#3/WS#64",
+            "sequence_asset_hierarchy": "WMB-A-00072",
+            "space_name": "Work Station #64",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9452,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#65",
+            "parent_id": [
+                9553,
+                "WMB/WBL/F#10/WS/Z#2/Row#3"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#3/WS#65",
+            "sequence_asset_hierarchy": "WMB-A-00073",
+            "space_name": "Work Station #65",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9453,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#66",
+            "parent_id": [
+                9553,
+                "WMB/WBL/F#10/WS/Z#2/Row#3"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#3/WS#66",
+            "sequence_asset_hierarchy": "WMB-A-00074",
+            "space_name": "Work Station #66",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9454,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#67",
+            "parent_id": [
+                9554,
+                "WMB/WBL/F#10/WS/Z#2/Row#4"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#4/WS#67",
+            "sequence_asset_hierarchy": "WMB-A-00075",
+            "space_name": "Work Station #67",
+            "space_status": "Released",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9455,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#68",
+            "parent_id": [
+                9554,
+                "WMB/WBL/F#10/WS/Z#2/Row#4"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#4/WS#68",
+            "sequence_asset_hierarchy": "WMB-A-00076",
+            "space_name": "Work Station #68",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9456,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#69",
+            "parent_id": [
+                9554,
+                "WMB/WBL/F#10/WS/Z#2/Row#4"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#4/WS#69",
+            "sequence_asset_hierarchy": "WMB-A-00077",
+            "space_name": "Work Station #69",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9457,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#70",
+            "parent_id": [
+                9554,
+                "WMB/WBL/F#10/WS/Z#2/Row#4"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#4/WS#70",
+            "sequence_asset_hierarchy": "WMB-A-00078",
+            "space_name": "Work Station #70",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9458,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#71",
+            "parent_id": [
+                9554,
+                "WMB/WBL/F#10/WS/Z#2/Row#4"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#4/WS#71",
+            "sequence_asset_hierarchy": "WMB-A-00079",
+            "space_name": "Work Station #71",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9459,
+            "is_booking_allowed": false,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#72",
+            "parent_id": [
+                9554,
+                "WMB/WBL/F#10/WS/Z#2/Row#4"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#4/WS#72",
+            "sequence_asset_hierarchy": "WMB-A-00080",
+            "space_name": "Work Station #72",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9460,
+            "is_booking_allowed": false,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#73",
+            "parent_id": [
+                9555,
+                "WMB/WBL/F#10/WS/Z#2/Row#5"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#5/WS#73",
+            "sequence_asset_hierarchy": "WMB-A-00081",
+            "space_name": "Work Station #73",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9461,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#74",
+            "parent_id": [
+                9555,
+                "WMB/WBL/F#10/WS/Z#2/Row#5"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#5/WS#74",
+            "sequence_asset_hierarchy": "WMB-A-00082",
+            "space_name": "Work Station #74",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9462,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#75",
+            "parent_id": [
+                9555,
+                "WMB/WBL/F#10/WS/Z#2/Row#5"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#5/WS#75",
+            "sequence_asset_hierarchy": "WMB-A-00083",
+            "space_name": "Work Station #75",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9463,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#76",
+            "parent_id": [
+                9555,
+                "WMB/WBL/F#10/WS/Z#2/Row#5"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#5/WS#76",
+            "sequence_asset_hierarchy": "WMB-A-00084",
+            "space_name": "Work Station #76",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9464,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#77",
+            "parent_id": [
+                9555,
+                "WMB/WBL/F#10/WS/Z#2/Row#5"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#5/WS#77",
+            "sequence_asset_hierarchy": "WMB-A-00085",
+            "space_name": "Work Station #77",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9465,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#78",
+            "parent_id": [
+                9555,
+                "WMB/WBL/F#10/WS/Z#2/Row#5"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#5/WS#78",
+            "sequence_asset_hierarchy": "WMB-A-00086",
+            "space_name": "Work Station #78",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9466,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#79",
+            "parent_id": [
+                9556,
+                "WMB/WBL/F#10/WS/Z#2/Row#6"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#6/WS#79",
+            "sequence_asset_hierarchy": "WMB-A-00087",
+            "space_name": "Work Station #79",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9467,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#80",
+            "parent_id": [
+                9556,
+                "WMB/WBL/F#10/WS/Z#2/Row#6"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#6/WS#80",
+            "sequence_asset_hierarchy": "WMB-A-00088",
+            "space_name": "Work Station #80",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9468,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#81",
+            "parent_id": [
+                9556,
+                "WMB/WBL/F#10/WS/Z#2/Row#6"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#6/WS#81",
+            "sequence_asset_hierarchy": "WMB-A-00089",
+            "space_name": "Work Station #81",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9469,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#82",
+            "parent_id": [
+                9556,
+                "WMB/WBL/F#10/WS/Z#2/Row#6"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#6/WS#82",
+            "sequence_asset_hierarchy": "WMB-A-00090",
+            "space_name": "Work Station #82",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9470,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#83",
+            "parent_id": [
+                9556,
+                "WMB/WBL/F#10/WS/Z#2/Row#6"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#6/WS#83",
+            "sequence_asset_hierarchy": "WMB-A-00091",
+            "space_name": "Work Station #83",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9471,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#84",
+            "parent_id": [
+                9556,
+                "WMB/WBL/F#10/WS/Z#2/Row#6"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#6/WS#84",
+            "sequence_asset_hierarchy": "WMB-A-00092",
+            "space_name": "Work Station #84",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9472,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#85",
+            "parent_id": [
+                9557,
+                "WMB/WBL/F#10/WS/Z#2/Row#7"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#7/WS#85",
+            "sequence_asset_hierarchy": "WMB-A-00093",
+            "space_name": "Work Station #85",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9473,
+            "is_booking_allowed": false,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#86",
+            "parent_id": [
+                9557,
+                "WMB/WBL/F#10/WS/Z#2/Row#7"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#7/WS#86",
+            "sequence_asset_hierarchy": "WMB-A-00094",
+            "space_name": "Work Station #86",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9474,
+            "is_booking_allowed": false,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#87",
+            "parent_id": [
+                9557,
+                "WMB/WBL/F#10/WS/Z#2/Row#7"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#7/WS#87",
+            "sequence_asset_hierarchy": "WMB-A-00095",
+            "space_name": "Work Station #87",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9475,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#88",
+            "parent_id": [
+                9557,
+                "WMB/WBL/F#10/WS/Z#2/Row#7"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#7/WS#88",
+            "sequence_asset_hierarchy": "WMB-A-00096",
+            "space_name": "Work Station #88",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9476,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#89",
+            "parent_id": [
+                9557,
+                "WMB/WBL/F#10/WS/Z#2/Row#7"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#7/WS#89",
+            "sequence_asset_hierarchy": "WMB-A-00097",
+            "space_name": "Work Station #89",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9477,
+            "is_booking_allowed": false,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#90",
+            "parent_id": [
+                9557,
+                "WMB/WBL/F#10/WS/Z#2/Row#7"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#7/WS#90",
+            "sequence_asset_hierarchy": "WMB-A-00098",
+            "space_name": "Work Station #90",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9478,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#91",
+            "parent_id": [
+                9558,
+                "WMB/WBL/F#10/WS/Z#2/Row#8"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#8/WS#91",
+            "sequence_asset_hierarchy": "WMB-A-00099",
+            "space_name": "Work Station #91",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9479,
+            "is_booking_allowed": false,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#92",
+            "parent_id": [
+                9558,
+                "WMB/WBL/F#10/WS/Z#2/Row#8"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#8/WS#92",
+            "sequence_asset_hierarchy": "WMB-A-00100",
+            "space_name": "Work Station #92",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9480,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#93",
+            "parent_id": [
+                9558,
+                "WMB/WBL/F#10/WS/Z#2/Row#8"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#8/WS#93",
+            "sequence_asset_hierarchy": "WMB-A-00101",
+            "space_name": "Work Station #93",
+            "space_status": "Maintenance in Progress",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9481,
+            "is_booking_allowed": false,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#94",
+            "parent_id": [
+                9558,
+                "WMB/WBL/F#10/WS/Z#2/Row#8"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#8/WS#94",
+            "sequence_asset_hierarchy": "WMB-A-00102",
+            "space_name": "Work Station #94",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9482,
+            "is_booking_allowed": false,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#95",
+            "parent_id": [
+                9558,
+                "WMB/WBL/F#10/WS/Z#2/Row#8"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#8/WS#95",
+            "sequence_asset_hierarchy": "WMB-A-00103",
+            "space_name": "Work Station #95",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9483,
+            "is_booking_allowed": false,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#96",
+            "parent_id": [
+                9558,
+                "WMB/WBL/F#10/WS/Z#2/Row#8"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#8/WS#96",
+            "sequence_asset_hierarchy": "WMB-A-00104",
+            "space_name": "Work Station #96",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9484,
+            "is_booking_allowed": false,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#97",
+            "parent_id": [
+                9559,
+                "WMB/WBL/F#10/WS/Z#2/Row#9"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#9/WS#97",
+            "sequence_asset_hierarchy": "WMB-A-00105",
+            "space_name": "Work Station #97",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9485,
+            "is_booking_allowed": false,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#98",
+            "parent_id": [
+                9559,
+                "WMB/WBL/F#10/WS/Z#2/Row#9"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#9/WS#98",
+            "sequence_asset_hierarchy": "WMB-A-00106",
+            "space_name": "Work Station #98",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9486,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#99",
+            "parent_id": [
+                9559,
+                "WMB/WBL/F#10/WS/Z#2/Row#9"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#9/WS#99",
+            "sequence_asset_hierarchy": "WMB-A-00107",
+            "space_name": "Work Station #99",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9487,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#100",
+            "parent_id": [
+                9559,
+                "WMB/WBL/F#10/WS/Z#2/Row#9"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#9/WS#100",
+            "sequence_asset_hierarchy": "WMB-A-00108",
+            "space_name": "Work Station #100",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9488,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#101",
+            "parent_id": [
+                9560,
+                "WMB/WBL/F#10/WS/Z#2/Row#10"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#10/WS#101",
+            "sequence_asset_hierarchy": "WMB-A-00109",
+            "space_name": "Work Station #101",
+            "space_status": "Maintenance in Progress",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9489,
+            "is_booking_allowed": false,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#102",
+            "parent_id": [
+                9560,
+                "WMB/WBL/F#10/WS/Z#2/Row#10"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#10/WS#102",
+            "sequence_asset_hierarchy": "WMB-A-00110",
+            "space_name": "Work Station #102",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9490,
+            "is_booking_allowed": false,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#103",
+            "parent_id": [
+                9560,
+                "WMB/WBL/F#10/WS/Z#2/Row#10"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#10/WS#103",
+            "sequence_asset_hierarchy": "WMB-A-00111",
+            "space_name": "Work Station #103",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9491,
+            "is_booking_allowed": false,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#104",
+            "parent_id": [
+                9560,
+                "WMB/WBL/F#10/WS/Z#2/Row#10"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#10/WS#104",
+            "sequence_asset_hierarchy": "WMB-A-00112",
+            "space_name": "Work Station #104",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9492,
+            "is_booking_allowed": false,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#105",
+            "parent_id": [
+                9560,
+                "WMB/WBL/F#10/WS/Z#2/Row#10"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#10/WS#105",
+            "sequence_asset_hierarchy": "WMB-A-00113",
+            "space_name": "Work Station #105",
+            "space_status": "Maintenance in Progress",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9493,
+            "is_booking_allowed": false,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#106",
+            "parent_id": [
+                9560,
+                "WMB/WBL/F#10/WS/Z#2/Row#10"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#10/WS#106",
+            "sequence_asset_hierarchy": "WMB-A-00114",
+            "space_name": "Work Station #106",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9494,
+            "is_booking_allowed": false,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#107",
+            "parent_id": [
+                9561,
+                "WMB/WBL/F#10/WS/Z#2/Row#11"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#11/WS#107",
+            "sequence_asset_hierarchy": "WMB-A-00115",
+            "space_name": "Work Station #107",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9495,
+            "is_booking_allowed": false,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#108",
+            "parent_id": [
+                9561,
+                "WMB/WBL/F#10/WS/Z#2/Row#11"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#11/WS#108",
+            "sequence_asset_hierarchy": "WMB-A-00116",
+            "space_name": "Work Station #108",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9496,
+            "is_booking_allowed": false,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#109",
+            "parent_id": [
+                9561,
+                "WMB/WBL/F#10/WS/Z#2/Row#11"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#11/WS#109",
+            "sequence_asset_hierarchy": "WMB-A-00117",
+            "space_name": "Work Station #109",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9497,
+            "is_booking_allowed": false,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#110",
+            "parent_id": [
+                9561,
+                "WMB/WBL/F#10/WS/Z#2/Row#11"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#11/WS#110",
+            "sequence_asset_hierarchy": "WMB-A-00118",
+            "space_name": "Work Station#110",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9498,
+            "is_booking_allowed": false,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#111",
+            "parent_id": [
+                9561,
+                "WMB/WBL/F#10/WS/Z#2/Row#11"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#11/WS#111",
+            "sequence_asset_hierarchy": "WMB-A-00119",
+            "space_name": "Work Station #111",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9499,
+            "is_booking_allowed": false,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#112",
+            "parent_id": [
+                9561,
+                "WMB/WBL/F#10/WS/Z#2/Row#11"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#11/WS#112",
+            "sequence_asset_hierarchy": "WMB-A-00120",
+            "space_name": "Work Station #112",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9500,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#113",
+            "parent_id": [
+                9562,
+                "WMB/WBL/F#10/WS/Z#3/Row#1"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#3/Row#1/WS#113",
+            "sequence_asset_hierarchy": "WMB-A-00121",
+            "space_name": "Work Station #113",
+            "space_status": "Maintenance in Progress",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9501,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#114",
+            "parent_id": [
+                9562,
+                "WMB/WBL/F#10/WS/Z#3/Row#1"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#3/Row#1/WS#114",
+            "sequence_asset_hierarchy": "WMB-A-00122",
+            "space_name": "Work Station #114",
+            "space_status": "Maintenance in Progress",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9502,
+            "is_booking_allowed": false,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#115",
+            "parent_id": [
+                9562,
+                "WMB/WBL/F#10/WS/Z#3/Row#1"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#3/Row#1/WS#115",
+            "sequence_asset_hierarchy": "WMB-A-00123",
+            "space_name": "Work Station #115",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9503,
+            "is_booking_allowed": false,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#116",
+            "parent_id": [
+                9562,
+                "WMB/WBL/F#10/WS/Z#3/Row#1"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#3/Row#1/WS#116",
+            "sequence_asset_hierarchy": "WMB-A-00124",
+            "space_name": "Work Station #116",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9504,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#117",
+            "parent_id": [
+                9562,
+                "WMB/WBL/F#10/WS/Z#3/Row#1"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#3/Row#1/WS#117",
+            "sequence_asset_hierarchy": "WMB-A-00125",
+            "space_name": "Work Station #117",
+            "space_status": "Maintenance in Progress",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9505,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#118",
+            "parent_id": [
+                9562,
+                "WMB/WBL/F#10/WS/Z#3/Row#1"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#3/Row#1/WS#118",
+            "sequence_asset_hierarchy": "WMB-A-00126",
+            "space_name": "Work Station #118",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9506,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#119",
+            "parent_id": [
+                9562,
+                "WMB/WBL/F#10/WS/Z#3/Row#1"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#3/Row#1/WS#119",
+            "sequence_asset_hierarchy": "WMB-A-00127",
+            "space_name": "Work Station #119",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9507,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#120",
+            "parent_id": [
+                9563,
+                "WMB/WBL/F#10/WS/Z#3/Row#2"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#3/Row#2/WS#120",
+            "sequence_asset_hierarchy": "WMB-A-00128",
+            "space_name": "Work Station #120",
+            "space_status": "Maintenance in Progress",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9508,
+            "is_booking_allowed": false,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#121",
+            "parent_id": [
+                9563,
+                "WMB/WBL/F#10/WS/Z#3/Row#2"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#3/Row#2/WS#121",
+            "sequence_asset_hierarchy": "WMB-A-00129",
+            "space_name": "Work Station #121",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9509,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#122",
+            "parent_id": [
+                9563,
+                "WMB/WBL/F#10/WS/Z#3/Row#2"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#3/Row#2/WS#122",
+            "sequence_asset_hierarchy": "WMB-A-00130",
+            "space_name": "Work Station #122",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9510,
+            "is_booking_allowed": false,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#123",
+            "parent_id": [
+                9563,
+                "WMB/WBL/F#10/WS/Z#3/Row#2"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#3/Row#2/WS#123",
+            "sequence_asset_hierarchy": "WMB-A-00131",
+            "space_name": "Work Station #123",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9511,
+            "is_booking_allowed": false,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#124",
+            "parent_id": [
+                9563,
+                "WMB/WBL/F#10/WS/Z#3/Row#2"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#3/Row#2/WS#124",
+            "sequence_asset_hierarchy": "WMB-A-00132",
+            "space_name": "Work Station #124",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9512,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#125",
+            "parent_id": [
+                9563,
+                "WMB/WBL/F#10/WS/Z#3/Row#2"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#3/Row#2/WS#125",
+            "sequence_asset_hierarchy": "WMB-A-00133",
+            "space_name": "Work Station #125",
+            "space_status": "Maintenance in Progress",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9513,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#126",
+            "parent_id": [
+                9564,
+                "WMB/WBL/F#10/WS/Z#3/Row#3"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#3/Row#3/WS#126",
+            "sequence_asset_hierarchy": "WMB-A-00134",
+            "space_name": "Work Station #126",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9514,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#127",
+            "parent_id": [
+                9564,
+                "WMB/WBL/F#10/WS/Z#3/Row#3"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#3/Row#3/WS#127",
+            "sequence_asset_hierarchy": "WMB-A-00135",
+            "space_name": "Work Station #127",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9515,
+            "is_booking_allowed": false,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#128",
+            "parent_id": [
+                9564,
+                "WMB/WBL/F#10/WS/Z#3/Row#3"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#3/Row#3/WS#128",
+            "sequence_asset_hierarchy": "WMB-A-00136",
+            "space_name": "Work Station #128",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9516,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#129",
+            "parent_id": [
+                9564,
+                "WMB/WBL/F#10/WS/Z#3/Row#3"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#3/Row#3/WS#129",
+            "sequence_asset_hierarchy": "WMB-A-00137",
+            "space_name": "Work Station #129",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9517,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#130",
+            "parent_id": [
+                9564,
+                "WMB/WBL/F#10/WS/Z#3/Row#3"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#3/Row#3/WS#130",
+            "sequence_asset_hierarchy": "WMB-A-00138",
+            "space_name": "Work Station #130",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9518,
+            "is_booking_allowed": false,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#131",
+            "parent_id": [
+                9564,
+                "WMB/WBL/F#10/WS/Z#3/Row#3"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#3/Row#3/WS#131",
+            "sequence_asset_hierarchy": "WMB-A-00139",
+            "space_name": "Work Station #131",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9519,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#132",
+            "parent_id": [
+                9565,
+                "WMB/WBL/F#10/WS/Z#3/Row#4"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#3/Row#4/WS#132",
+            "sequence_asset_hierarchy": "WMB-A-00140",
+            "space_name": "Work Station #132",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9520,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#133",
+            "parent_id": [
+                9565,
+                "WMB/WBL/F#10/WS/Z#3/Row#4"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#3/Row#4/WS#133",
+            "sequence_asset_hierarchy": "WMB-A-00141",
+            "space_name": "Work Station #133",
+            "space_status": "Maintenance in Progress",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9521,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#134",
+            "parent_id": [
+                9565,
+                "WMB/WBL/F#10/WS/Z#3/Row#4"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#3/Row#4/WS#134",
+            "sequence_asset_hierarchy": "WMB-A-00142",
+            "space_name": "Work Station #134",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9522,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#135",
+            "parent_id": [
+                9565,
+                "WMB/WBL/F#10/WS/Z#3/Row#4"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#3/Row#4/WS#135",
+            "sequence_asset_hierarchy": "WMB-A-00143",
+            "space_name": "Work Station #135",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9523,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#136",
+            "parent_id": [
+                9565,
+                "WMB/WBL/F#10/WS/Z#3/Row#4"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#3/Row#4/WS#136",
+            "sequence_asset_hierarchy": "WMB-A-00144",
+            "space_name": "Work Station #136",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9524,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#137",
+            "parent_id": [
+                9565,
+                "WMB/WBL/F#10/WS/Z#3/Row#4"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#3/Row#4/WS#137",
+            "sequence_asset_hierarchy": "WMB-A-00145",
+            "space_name": "Work Station #137",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9525,
+            "is_booking_allowed": false,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#138",
+            "parent_id": [
+                9565,
+                "WMB/WBL/F#10/WS/Z#3/Row#4"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#3/Row#4/WS#138",
+            "sequence_asset_hierarchy": "WMB-A-00146",
+            "space_name": "Work Station #138",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9526,
+            "is_booking_allowed": false,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#139",
+            "parent_id": [
+                9565,
+                "WMB/WBL/F#10/WS/Z#3/Row#4"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#3/Row#4/WS#139",
+            "sequence_asset_hierarchy": "WMB-A-00147",
+            "space_name": "Work Station #139",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9527,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#140",
+            "parent_id": [
+                9565,
+                "WMB/WBL/F#10/WS/Z#3/Row#4"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#3/Row#4/WS#140",
+            "sequence_asset_hierarchy": "WMB-A-00148",
+            "space_name": "Work Station #140",
+            "space_status": "Maintenance in Progress",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9528,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#141",
+            "parent_id": [
+                9567,
+                "WMB/WBL/F#10/WS/Z#4/Row#1"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#4/Row#1/WS#141",
+            "sequence_asset_hierarchy": "WMB-A-00149",
+            "space_name": "Work Station #141",
+            "space_status": "Maintenance in Progress",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9529,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#142",
+            "parent_id": [
+                9567,
+                "WMB/WBL/F#10/WS/Z#4/Row#1"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#4/Row#1/WS#142",
+            "sequence_asset_hierarchy": "WMB-A-00150",
+            "space_name": "Work Station #142",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9530,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#143",
+            "parent_id": [
+                9567,
+                "WMB/WBL/F#10/WS/Z#4/Row#1"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#4/Row#1/WS#143",
+            "sequence_asset_hierarchy": "WMB-A-00151",
+            "space_name": "Work Station #143",
+            "space_status": "Maintenance in Progress",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9531,
+            "is_booking_allowed": false,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#144",
+            "parent_id": [
+                9567,
+                "WMB/WBL/F#10/WS/Z#4/Row#1"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#4/Row#1/WS#144",
+            "sequence_asset_hierarchy": "WMB-A-00152",
+            "space_name": "Work Station #144",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9532,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#145",
+            "parent_id": [
+                9568,
+                "WMB/WBL/F#10/WS/Z#4/Row#2"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#4/Row#2/WS#145",
+            "sequence_asset_hierarchy": "WMB-A-00153",
+            "space_name": "Work Station #145",
+            "space_status": "Occupied",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9533,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#146",
+            "parent_id": [
+                9568,
+                "WMB/WBL/F#10/WS/Z#4/Row#2"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#4/Row#2/WS#146",
+            "sequence_asset_hierarchy": "WMB-A-00154",
+            "space_name": "Work Station #146",
+            "space_status": "Maintenance in Progress",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9534,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#147",
+            "parent_id": [
+                9568,
+                "WMB/WBL/F#10/WS/Z#4/Row#2"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#4/Row#2/WS#147",
+            "sequence_asset_hierarchy": "WMB-A-00155",
+            "space_name": "Work Station #147",
+            "space_status": "Maintenance in Progress",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9535,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS#148",
+            "parent_id": [
+                9568,
+                "WMB/WBL/F#10/WS/Z#4/Row#2"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#4/Row#2/WS#148",
+            "sequence_asset_hierarchy": "WMB-A-00156",
+            "space_name": "Work Station #148",
+            "space_status": "Maintenance in Progress",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9536,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "CR",
+            "parent_id": [
+                9104,
+                "WMB/WBL/F#10"
+            ],
+            "path_name": "WMB/WBL/F#10/CR",
+            "sequence_asset_hierarchy": "MLS-A-00157",
+            "space_name": "Conference Room",
+            "space_status": "Ready",
+            "sub_type_id": [
+                48,
+                "Transition Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                185,
+                "Space"
+            ],
+            "id": 9538,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "WS",
+            "parent_id": [
+                9104,
+                "WMB/WBL/F#10"
+            ],
+            "path_name": "WMB/WBL/F#10/WS",
+            "sequence_asset_hierarchy": "WMB-A-00158",
+            "space_name": "Work Station",
+            "space_status": "Ready",
+            "sub_type_id": [
+                50,
+                "Workstation Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                185,
+                "Space"
+            ],
+            "id": 9540,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "Z#1",
+            "parent_id": [
+                9538,
+                "WMB/WBL/F#10/WS"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#1",
+            "sequence_asset_hierarchy": "WMB-A-00159",
+            "space_name": "Zone #1",
+            "space_status": "Ready",
+            "sub_type_id": [
+                38,
+                "Office Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                185,
+                "Space"
+            ],
+            "id": 9541,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "Z#2",
+            "parent_id": [
+                9538,
+                "WMB/WBL/F#10/WS"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2",
+            "sequence_asset_hierarchy": "WMB-A-00160",
+            "space_name": "Zone #2",
+            "space_status": "Ready",
+            "sub_type_id": [
+                38,
+                "Office Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                185,
+                "Space"
+            ],
+            "id": 9542,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "Z#3",
+            "parent_id": [
+                9538,
+                "WMB/WBL/F#10/WS"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#3",
+            "sequence_asset_hierarchy": "WMB-A-00161",
+            "space_name": "Zone #3",
+            "space_status": "Ready",
+            "sub_type_id": [
+                38,
+                "Office Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                185,
+                "Space"
+            ],
+            "id": 9543,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "Row#1",
+            "parent_id": [
+                9540,
+                "WMB/WBL/F#10/WS/Z#1"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#1/Row#1",
+            "sequence_asset_hierarchy": "WMB-A-00162",
+            "space_name": "Row #1",
+            "space_status": "Ready",
+            "sub_type_id": [
+                38,
+                "Office Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                185,
+                "Space"
+            ],
+            "id": 9544,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "Row#2",
+            "parent_id": [
+                9540,
+                "WMB/WBL/F#10/WS/Z#1"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#1/Row#2",
+            "sequence_asset_hierarchy": "WMB-A-00163",
+            "space_name": "Row #2",
+            "space_status": "Ready",
+            "sub_type_id": [
+                38,
+                "Office Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                185,
+                "Space"
+            ],
+            "id": 9545,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "Row#3",
+            "parent_id": [
+                9540,
+                "WMB/WBL/F#10/WS/Z#1"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#1/Row#3",
+            "sequence_asset_hierarchy": "WMB-A-00164",
+            "space_name": "Row #3",
+            "space_status": "Ready",
+            "sub_type_id": [
+                38,
+                "Office Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                185,
+                "Space"
+            ],
+            "id": 9546,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "Row#4",
+            "parent_id": [
+                9540,
+                "WMB/WBL/F#10/WS/Z#1"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#1/Row#4",
+            "sequence_asset_hierarchy": "WMB-A-00165",
+            "space_name": "Row #4",
+            "space_status": "Ready",
+            "sub_type_id": [
+                38,
+                "Office Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                185,
+                "Space"
+            ],
+            "id": 9547,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "Row#5",
+            "parent_id": [
+                9540,
+                "WMB/WBL/F#10/WS/Z#1"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#1/Row#5",
+            "sequence_asset_hierarchy": "WMB-A-00166",
+            "space_name": "Row #5",
+            "space_status": "Ready",
+            "sub_type_id": [
+                38,
+                "Office Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                185,
+                "Space"
+            ],
+            "id": 9548,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "Row#6",
+            "parent_id": [
+                9540,
+                "WMB/WBL/F#10/WS/Z#1"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#1/Row#6",
+            "sequence_asset_hierarchy": "WMB-A-00167",
+            "space_name": "Row #6",
+            "space_status": "Ready",
+            "sub_type_id": [
+                38,
+                "Office Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                185,
+                "Space"
+            ],
+            "id": 9549,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "Row#7",
+            "parent_id": [
+                9540,
+                "WMB/WBL/F#10/WS/Z#1"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#1/Row#7",
+            "sequence_asset_hierarchy": "WMB-A-00168",
+            "space_name": "Row #7",
+            "space_status": "Ready",
+            "sub_type_id": [
+                38,
+                "Office Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                185,
+                "Space"
+            ],
+            "id": 9550,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "Row#8",
+            "parent_id": [
+                9540,
+                "WMB/WBL/F#10/WS/Z#1"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#1/Row#8",
+            "sequence_asset_hierarchy": "WMB-A-00169",
+            "space_name": "Row #8",
+            "space_status": "Ready",
+            "sub_type_id": [
+                38,
+                "Office Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                185,
+                "Space"
+            ],
+            "id": 9551,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "Row#1",
+            "parent_id": [
+                9541,
+                "WMB/WBL/F#10/WS/Z#2"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#1",
+            "sequence_asset_hierarchy": "WMB-A-00170",
+            "space_name": "Row #1",
+            "space_status": "Ready",
+            "sub_type_id": [
+                38,
+                "Office Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                185,
+                "Space"
+            ],
+            "id": 9552,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "Row#2",
+            "parent_id": [
+                9541,
+                "WMB/WBL/F#10/WS/Z#2"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#2",
+            "sequence_asset_hierarchy": "WMB-A-00171",
+            "space_name": "Row #2",
+            "space_status": "Ready",
+            "sub_type_id": [
+                38,
+                "Office Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                185,
+                "Space"
+            ],
+            "id": 9553,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "Row#3",
+            "parent_id": [
+                9541,
+                "WMB/WBL/F#10/WS/Z#2"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#3",
+            "sequence_asset_hierarchy": "WMB-A-00172",
+            "space_name": "Row #3",
+            "space_status": "Ready",
+            "sub_type_id": [
+                38,
+                "Office Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                185,
+                "Space"
+            ],
+            "id": 9554,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "Row#4",
+            "parent_id": [
+                9541,
+                "WMB/WBL/F#10/WS/Z#2"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#4",
+            "sequence_asset_hierarchy": "WMB-A-00173",
+            "space_name": "Row #4",
+            "space_status": "Ready",
+            "sub_type_id": [
+                38,
+                "Office Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                185,
+                "Space"
+            ],
+            "id": 9555,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "Row#5",
+            "parent_id": [
+                9541,
+                "WMB/WBL/F#10/WS/Z#2"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#5",
+            "sequence_asset_hierarchy": "WMB-A-00174",
+            "space_name": "Row #5",
+            "space_status": "Ready",
+            "sub_type_id": [
+                38,
+                "Office Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                185,
+                "Space"
+            ],
+            "id": 9556,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "Row#6",
+            "parent_id": [
+                9541,
+                "WMB/WBL/F#10/WS/Z#2"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#6",
+            "sequence_asset_hierarchy": "WMB-A-00175",
+            "space_name": "Row #6",
+            "space_status": "Ready",
+            "sub_type_id": [
+                38,
+                "Office Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                185,
+                "Space"
+            ],
+            "id": 9557,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "Row#7",
+            "parent_id": [
+                9541,
+                "WMB/WBL/F#10/WS/Z#2"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#7",
+            "sequence_asset_hierarchy": "WMB-A-00176",
+            "space_name": "Row #7",
+            "space_status": "Ready",
+            "sub_type_id": [
+                38,
+                "Office Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                185,
+                "Space"
+            ],
+            "id": 9558,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "Row#8",
+            "parent_id": [
+                9541,
+                "WMB/WBL/F#10/WS/Z#2"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#8",
+            "sequence_asset_hierarchy": "WMB-A-00177",
+            "space_name": "Row #8",
+            "space_status": "Ready",
+            "sub_type_id": [
+                38,
+                "Office Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                185,
+                "Space"
+            ],
+            "id": 9559,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "Row#9",
+            "parent_id": [
+                9541,
+                "WMB/WBL/F#10/WS/Z#2"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#9",
+            "sequence_asset_hierarchy": "WMB-A-00178",
+            "space_name": "Row #9",
+            "space_status": "Ready",
+            "sub_type_id": [
+                38,
+                "Office Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                185,
+                "Space"
+            ],
+            "id": 9560,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "Row#10",
+            "parent_id": [
+                9541,
+                "WMB/WBL/F#10/WS/Z#2"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#10",
+            "sequence_asset_hierarchy": "WMB-A-00179",
+            "space_name": "Row #10",
+            "space_status": "Ready",
+            "sub_type_id": [
+                38,
+                "Office Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                185,
+                "Space"
+            ],
+            "id": 9561,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "Row#11",
+            "parent_id": [
+                9541,
+                "WMB/WBL/F#10/WS/Z#2"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#2/Row#11",
+            "sequence_asset_hierarchy": "WMB-A-00180",
+            "space_name": "Row #11",
+            "space_status": "Ready",
+            "sub_type_id": [
+                38,
+                "Office Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                185,
+                "Space"
+            ],
+            "id": 9562,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "Row#1",
+            "parent_id": [
+                9542,
+                "WMB/WBL/F#10/WS/Z#3"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#3/Row#1",
+            "sequence_asset_hierarchy": "WMB-A-00181",
+            "space_name": "Row #1",
+            "space_status": "Ready",
+            "sub_type_id": [
+                38,
+                "Office Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                185,
+                "Space"
+            ],
+            "id": 9563,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "Row#2",
+            "parent_id": [
+                9542,
+                "WMB/WBL/F#10/WS/Z#3"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#3/Row#2",
+            "sequence_asset_hierarchy": "WMB-A-00182",
+            "space_name": "Row #2",
+            "space_status": "Ready",
+            "sub_type_id": [
+                38,
+                "Office Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                185,
+                "Space"
+            ],
+            "id": 9564,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "Row#3",
+            "parent_id": [
+                9542,
+                "WMB/WBL/F#10/WS/Z#3"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#3/Row#3",
+            "sequence_asset_hierarchy": "WMB-A-00183",
+            "space_name": "Row #3",
+            "space_status": "Ready",
+            "sub_type_id": [
+                38,
+                "Office Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                185,
+                "Space"
+            ],
+            "id": 9565,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "Row#4",
+            "parent_id": [
+                9542,
+                "WMB/WBL/F#10/WS/Z#3"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#3/Row#4",
+            "sequence_asset_hierarchy": "WMB-A-00184",
+            "space_name": "Row #4",
+            "space_status": "Ready",
+            "sub_type_id": [
+                38,
+                "Office Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                185,
+                "Space"
+            ],
+            "id": 9566,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "Z#4",
+            "parent_id": [
+                9538,
+                "WMB/WBL/F#10/WS"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#4",
+            "sequence_asset_hierarchy": "WMB-A-00185",
+            "space_name": "Zone #4",
+            "space_status": "Ready",
+            "sub_type_id": [
+                38,
+                "Office Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                185,
+                "Space"
+            ],
+            "id": 9567,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "Row#1",
+            "parent_id": [
+                9566,
+                "WMB/WBL/F#10/WS/Z#4"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#4/Row#1",
+            "sequence_asset_hierarchy": "WMB-A-00186",
+            "space_name": "Row #1",
+            "space_status": "Ready",
+            "sub_type_id": [
+                38,
+                "Office Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                185,
+                "Space"
+            ],
+            "id": 9568,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "Row#2",
+            "parent_id": [
+                9566,
+                "WMB/WBL/F#10/WS/Z#4"
+            ],
+            "path_name": "WMB/WBL/F#10/WS/Z#4/Row#2",
+            "sequence_asset_hierarchy": "WMB-A-00187",
+            "space_name": "Row #2",
+            "space_status": "Ready",
+            "sub_type_id": [
+                38,
+                "Office Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9623,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "OR",
+            "parent_id": [
+                9104,
+                "WMB/WBL/F#10"
+            ],
+            "path_name": "WMB/WBL/F#10/OR",
+            "sequence_asset_hierarchy": "WMB-A-00198",
+            "space_name": "Office Room",
+            "space_status": "Ready",
+            "sub_type_id": [
+                38,
+                "Office Area"
+            ],
+            "type_id": [
+                9,
+                "Area"
+            ]
+        },
+        {
+            "asset_category_id": [
+                184,
+                "Room"
+            ],
+            "id": 9624,
+            "is_booking_allowed": true,
+            "maintenance_team_id": [
+                542,
+                "Soft Services"
+            ],
+            "name": "RR",
+            "parent_id": [
+                9623,
+                "WMB/WBL/F#10/OR"
+            ],
+            "path_name": "WMB/WBL/F#10/OR/RR",
+            "sequence_asset_hierarchy": "WMB-A-00199",
+            "space_name": "Recreation Room",
+            "space_status": "Ready",
+            "sub_type_id": [
+                64,
+                "Office Room"
+            ],
+            "type_id": [
+                10,
+                "Room"
+            ]
+        }
+    ],
+    "error": {},
+    "length": 187,
+    "status": true
+}

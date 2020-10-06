@@ -4,15 +4,28 @@
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "cors": "^2.8.5",
+    "cp-react-tree-table": "^1.0.0-beta.10",
+    "deni-react-treeview": "^1.1.11",
+    "loadash": "^1.0.0",
+    "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3"
+    "react-redux": "^7.2.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.3",
+    "react-simple-tree-menu": "^1.1.18",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start-dev": "env-cmd -e dev react-scripts start",
+    "build-dev": "env-cmd -e dev react-scripts build",
+    "start-qa": "env-cmd -e qa react-scripts start",
+    "build-qa": " env-cmd -e qa react-scripts build",
+    "start-prod": "env-cmd -e prod react-scripts start",
+    "build-prod": "env-cmd -e prod react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -30,5 +43,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@testing-library/react": "^9.5.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.3",
+    "jest-dom": "^4.0.0",
+    "react-test-render": "^1.1.2"
   }
 }
