@@ -8,9 +8,8 @@ apt-get install -y zip unzip
 git clone ${gitUrl} /opt/apps/react
 cp /opt/apps/react/run.sh /opt/apps
 cd /opt/apps/react
-export REACT_APP_API_URL=${REACT_APP_API_URL}
 npm install
-npm run build
+REACT_APP_API_URL=${REACT_APP_API_URL} npm run build
 cd /opt/apps/
 mkdir reactproject
 cd /opt/apps/react
