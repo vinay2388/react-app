@@ -10,7 +10,7 @@ git clone ${gitUrl} /opt/apps/react
 cp /opt/apps/react/run.sh /opt/apps
 cd /opt/apps/react
 npm install
-REACT_APP_API_URL='http://web-api-app.dev.stacklynx.com' npm run build
+npm run build
 cd /opt/apps/
 mkdir reactproject
 cd /opt/apps/react
