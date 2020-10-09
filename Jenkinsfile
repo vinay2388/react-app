@@ -1,12 +1,12 @@
 // test
 pipeline {
     // agent any
-    agent {
-        docker {
-            image 'node:6-alpine'
-            args '-p 3000:3000'
-        }
-    }
+    // agent {
+    //     docker {
+    //         image 'node:6-alpine'
+    //         args '-p 3000:3000'
+    //     }
+    // }
     tools {nodejs "nodejs"}
     environment {
         CI = 'true' 
