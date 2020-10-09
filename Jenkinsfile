@@ -24,17 +24,17 @@ pipeline {
 
         }
 
-        stage ('Exec Maven') {
-            steps {
-                rtMavenRun (
-                    tool: 'maven3.6.3', // Tool name from Jenkins configuration
-                    deployerId: "MAVEN_DEPLOYER",
-                    //resolverId: "MAVEN_RESOLVER"
-                )
-            }
+        // stage ('Exec Maven') {
+        //     steps {
+        //         rtMavenRun (
+        //             tool: 'maven3.6.3', // Tool name from Jenkins configuration
+        //             deployerId: "MAVEN_DEPLOYER",
+        //             //resolverId: "MAVEN_RESOLVER"
+        //         )
+        //     }
             
             
-        }
+        // }
         stage( 'install' )
         {
             steps{
