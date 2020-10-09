@@ -8,9 +8,9 @@ pipeline {
     //     }
     // }
     tools {nodejs "nodejs"}
-    environment {
-        CI = 'true' 
-    }
+    // environment {
+    //     CI = 'true' 
+    // }
     stages {
         
          stage ('Artifactory configuration') {
