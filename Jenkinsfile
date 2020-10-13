@@ -19,75 +19,98 @@ pipeline {
                     // id: "central",
                     // url: "http://artifactory-aminsayogms.dev.stacklynx.com/artifactory",
                     // credentialsId: "bitbucket"
-                    def server = Artifactory.server 'central'
+                    def server = Artifactory.server 'central1'
                 )
                 
 
-                rtMavenDeployer (
-                    id: "MAVEN_DEPLOYER",
-                    serverId: "central",
-                    releaseRepo: "aero-repo",
-                    snapshotRepo: "aero-repo"
+                rtNpmResolver (
+                    id: "NPM_RESOLVER",
+                    serverId: "central1",
+                    repo: "aero-repo"
+                )
+
+                rtNpmDeployer (
+                    id: "NPM_DEPLOYER",
+                    serverId: "central1",
+                    repo: "aero-repo"
                 )
 
             }
 
         }
 
-        // stage ('Exec Maven') {
-        //     steps {
-        //         rtMavenRun (
-        //             // tool: 'maven3.6.3', // Tool name from Jenkins configuration
-        //             deployerId: "MAVEN_DEPLOYER",
-        //             //resolverId: "MAVEN_RESOLVER"
-        //         )
+        stage ('Exec Maven') {
+            steps {
+               steps {
+                rtNpmInstall (
+                    tool: nodejs, // Tool name from Jenkins configuration
+                    // path: "npm-example",
+                    resolverId: "NPM_RESOLVER"
+                )
+            }
+            }
+            
+            
+        }
+        // stage( 'install' )
+        // {
+        //     steps{
+        //          sh 'npm install'
         //     }
-            
-            
         // }
-        stage( 'install' )
-        {
-            steps{
-                 sh 'npm install'
-            }
-        }
-        stage ('build'){
-            steps{
-                sh 'npm run build'
-            }
-        }
-        stage ('package'){
-            steps{
-                sh 'sudo apt-get install'
-                // sh 'apt-get update'
-                sh 'sudo apt-get install -y zip unzip'
-                sh 'zip -r package.zip package.json'
+        // stage ('build'){
+        //     steps{
+        //         sh 'npm run build'
+        //     }
+        // }
+        // stage ('package'){
+        //     steps{
+        //         sh 'sudo apt-get install'
+        //         // sh 'apt-get update'
+        //         sh 'sudo apt-get install -y zip unzip'
+        //         sh 'zip -r package.zip package.json'
+        //     }
+        // }
+        // stage ('Publish build info') {
+        //     steps {
+        //         rtPublishBuildInfo (
+        //             serverId: "central"
+        //         )
+        //         // rtMavenRun (
+        //         //     // tool: 'maven3.6.3', // Tool name from Jenkins configuration
+        //         //     deployerId: "MAVEN_DEPLOYER",
+        //         //     //resolverId: "MAVEN_RESOLVER"
+        //         // )
+        //     //     rtPublishBuildInfo (
+        //     //     URL : "central".ARTIFACTORY_URL
+        //     // // repository {
+        //     //     // releaseRepo: "aero-repo",
+        //     //     // snapshotRepo: "aero-repo"
+        //     //     Username : "admin"
+        //     //     Password : "Password"
+        //     //     // }
+        //     //     )
+        //     // rtUpload (
+        //     //     serverId: 'central',
+        //     //     specPath: 'path/to/spec/relative/to/workspace/spec.json',
+ 
+        //     // )
+        //     }
+        // }
+        stage ('Exec npm publish') {
+            steps {
+                rtNpmPublish (
+                    tool: nodejs, // Tool name from Jenkins configuration
+                    // path: "npm-example",
+                    deployerId: "NPM_DEPLOYER"
+                )
             }
         }
         stage ('Publish build info') {
             steps {
                 rtPublishBuildInfo (
-                    serverId: "central"
+                    serverId: "central1"
                 )
-                // rtMavenRun (
-                //     // tool: 'maven3.6.3', // Tool name from Jenkins configuration
-                //     deployerId: "MAVEN_DEPLOYER",
-                //     //resolverId: "MAVEN_RESOLVER"
-                // )
-            //     rtPublishBuildInfo (
-            //     URL : "central".ARTIFACTORY_URL
-            // // repository {
-            //     // releaseRepo: "aero-repo",
-            //     // snapshotRepo: "aero-repo"
-            //     Username : "admin"
-            //     Password : "Password"
-            //     // }
-            //     )
-            // rtUpload (
-            //     serverId: 'central',
-            //     specPath: 'path/to/spec/relative/to/workspace/spec.json',
- 
-            // )
             }
         }
     }
