@@ -56,11 +56,11 @@ pipeline {
                 sh 'npm run build'
             }
         }
-        // stage ('package'){
-        //     steps{
-        //         sh ''
-        //     }
-        // }
+        stage ('package'){
+            steps{
+                sh 'zip -r package.zip package.json'
+            }
+        }
         stage ('Publish build info') {
             steps {
                 rtPublishBuildInfo (
