@@ -56,25 +56,35 @@ pipeline {
                 sh 'npm run build'
             }
         }
+        // stage ('package'){
+        //     steps{
+        //         sh ''
+        //     }
+        // }
         stage ('Publish build info') {
             steps {
-                // rtPublishBuildInfo (
-                //     serverId: "central"
-                // )
+                rtPublishBuildInfo (
+                    serverId: "central"
+                )
                 // rtMavenRun (
                 //     // tool: 'maven3.6.3', // Tool name from Jenkins configuration
                 //     deployerId: "MAVEN_DEPLOYER",
                 //     //resolverId: "MAVEN_RESOLVER"
                 // )
-                rtPublishBuildInfo (
-                URL : "central".ARTIFACTORY_URL
-            repository {
-                // releaseRepo: "aero-repo",
-                // snapshotRepo: "aero-repo"
-                Username : "admin"
-                Password : "Password"
-                }
-                )
+            //     rtPublishBuildInfo (
+            //     URL : "central".ARTIFACTORY_URL
+            // // repository {
+            //     // releaseRepo: "aero-repo",
+            //     // snapshotRepo: "aero-repo"
+            //     Username : "admin"
+            //     Password : "Password"
+            //     // }
+            //     )
+            // rtUpload (
+            //     serverId: 'central',
+            //     specPath: 'path/to/spec/relative/to/workspace/spec.json',
+ 
+            // )
             }
         }
     }
