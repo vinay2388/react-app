@@ -66,6 +66,7 @@ pipeline {
                 //     deployerId: "MAVEN_DEPLOYER",
                 //     //resolverId: "MAVEN_RESOLVER"
                 // )
+                rtPublishBuildInfo (
                 URL : "central".ARTIFACTORY_URL
             repository {
                 // releaseRepo: "aero-repo",
@@ -73,6 +74,7 @@ pipeline {
                 Username : "admin"
                 Password : "Password"
                 }
+                )
             }
         }
     }
