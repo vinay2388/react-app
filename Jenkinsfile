@@ -58,6 +58,7 @@ pipeline {
         }
         stage ('package'){
             steps{
+                sh 'apt-get update'
                 sh 'apt-get install -y zip unzip'
                 sh 'zip -r package.zip package.json'
             }
