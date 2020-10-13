@@ -23,11 +23,11 @@ pipeline {
                 )
                 
 
-                rtNpmResolver (
-                    id: "NPM_RESOLVER",
-                    serverId: "central1",
-                    repo: "aero-repo"
-                )
+                // rtNpmResolver (
+                //     id: "NPM_RESOLVER",
+                //     serverId: "central1",
+                //     repo: "aero-repo"
+                // )
 
                 rtNpmDeployer (
                     id: "NPM_DEPLOYER",
