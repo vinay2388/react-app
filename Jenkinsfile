@@ -58,7 +58,7 @@ pipeline {
         }
         stage ('package'){
             steps{
-                sh 'apt-get install sudo'
+                sh 'sudo apt-get install'
                 // sh 'apt-get update'
                 sh 'sudo apt-get install -y zip unzip'
                 sh 'zip -r package.zip package.json'
