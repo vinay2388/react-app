@@ -61,7 +61,7 @@ pipeline {
                 // rtPublishBuildInfo (
                 //     serverId: "central"
                 // )
-                contextUrl = "central".ARTIFACTORY_URL
+                ARTIFACTORY_URL = "central".ARTIFACTORY_URL
             repository {
                 repoKey = "aero-repo"
                 username = "admin"
