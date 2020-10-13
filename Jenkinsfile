@@ -68,8 +68,8 @@ pipeline {
                 // )
                 URL : "central".ARTIFACTORY_URL
             repository {
-                releaseRepo: "aero-repo",
-                snapshotRepo: "aero-repo"
+                // releaseRepo: "aero-repo",
+                // snapshotRepo: "aero-repo"
                 Username : "admin"
                 Password : "Password"
                 }
