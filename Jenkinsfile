@@ -58,20 +58,21 @@ pipeline {
         }
         stage ('Publish build info') {
             steps {
-                rtPublishBuildInfo (
-                    serverId: "central"
-                )
-                rtMavenRun (
-                    // tool: 'maven3.6.3', // Tool name from Jenkins configuration
-                    deployerId: "MAVEN_DEPLOYER",
-                    //resolverId: "MAVEN_RESOLVER"
-                )
-            //     ARTIFACTORY_URL = "central".ARTIFACTORY_URL
-            // repository {
-            //     repoKey = "aero-repo"
-            //     username = "admin"
-            //     password = "Password"
-            //     }
+                // rtPublishBuildInfo (
+                //     serverId: "central"
+                // )
+                // rtMavenRun (
+                //     // tool: 'maven3.6.3', // Tool name from Jenkins configuration
+                //     deployerId: "MAVEN_DEPLOYER",
+                //     //resolverId: "MAVEN_RESOLVER"
+                // )
+                URL : "central".ARTIFACTORY_URL
+            repository {
+                releaseRepo: "aero-repo",
+                snapshotRepo: "aero-repo"
+                Username : "admin"
+                Password : "Password"
+                }
             }
         }
     }
