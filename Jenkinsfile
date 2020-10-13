@@ -56,12 +56,12 @@ pipeline {
                 sh 'npm run build'
             }
         }
-        stage ('Publish build info') {
-            steps {
-                rtPublishBuildInfo (
-                    serverId: "central"
-                )
-            }
-        }
+        // stage ('Publish build info') {
+        //     steps {
+        //         rtPublishBuildInfo (
+        //             serverId: "central"
+        //         )
+        //     }
+        // }
     }
 }
