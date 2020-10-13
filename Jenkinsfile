@@ -58,15 +58,13 @@ pipeline {
         }
         stage ('Publish build info') {
             steps {
+                rtPublishBuildInfo (
+                    serverId: "central"
+                )
                 rtMavenRun (
                     // tool: 'maven3.6.3', // Tool name from Jenkins configuration
                     deployerId: "MAVEN_DEPLOYER",
                     //resolverId: "MAVEN_RESOLVER"
-                )
-            }
-            steps {
-                rtPublishBuildInfo (
-                    serverId: "central"
                 )
             //     ARTIFACTORY_URL = "central".ARTIFACTORY_URL
             // repository {
