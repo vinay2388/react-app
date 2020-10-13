@@ -40,7 +40,7 @@ pipeline {
         }
 
         stage ('Exec Maven') {
-            steps {
+            
                steps {
                 rtNpmInstall (
                     tool: nodejs, // Tool name from Jenkins configuration
@@ -48,7 +48,7 @@ pipeline {
                     resolverId: "NPM_RESOLVER"
                 )
             }
-            }
+            
             
             
         }
