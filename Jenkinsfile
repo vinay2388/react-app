@@ -39,25 +39,25 @@ pipeline {
 
         }
 
-        stage ('Exec Maven') {
+        // stage ('Exec Maven') {
             
-               steps {
-                rtNpmInstall (
-                    tool: "nodejs", // Tool name from Jenkins configuration
-                    // path: "source",
-                    resolverId: "NPM_RESOLVER"
-                )
-            }
-            
-            
-            
-        }
-        // stage( 'install' )
-        // {
-        //     steps{
-        //          sh 'npm install'
+        //        steps {
+        //         rtNpmInstall (
+        //             tool: "nodejs", // Tool name from Jenkins configuration
+        //             // path: "source",
+        //             resolverId: "NPM_RESOLVER"
+        //         )
         //     }
+            
+            
+            
         // }
+        stage( 'install' )
+        {
+            steps{
+                 sh 'npm install'
+            }
+        }
         stage ('build'){
             steps{
                 sh 'npm run build'
