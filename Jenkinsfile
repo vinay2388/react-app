@@ -32,6 +32,18 @@ pipeline {
                     serverId: "central1",
                     repo: "aero-repo"
                 )
+                rtMavenDeployer (
+                    id: "MAVEN_DEPLOYER",
+                    serverId: "central",
+                    releaseRepo: "aero-repo",
+                    snapshotRepo: "aero-repo"
+                )
+                rtMavenResolver (
+                    id: "MAVEN_RESOLVER",
+                    serverId: "central",
+                    releaseRepo: "libs-release",
+                    snapshotRepo: "libs-snapshot"
+                )
 
             }
 
@@ -52,7 +64,7 @@ pipeline {
         // }
         stage ('install'){
             steps{
-               sh 'npm i'
+               sh 'npm install'
             }
         }
         stage ('build'){
