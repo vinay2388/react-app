@@ -1,6 +1,6 @@
 // test
 pipeline {
-    agent any
+    agent nodejs
     // agent {
     //     docker {
     //         image 'node:6-alpine'
