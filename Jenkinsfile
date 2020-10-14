@@ -53,7 +53,8 @@ pipeline {
         stage( 'install' )
         {
             steps{
-                 sh ' npm install '
+                sh 'sudo apt-get install g++ build-essential'
+                 sh 'npm install'
             }
         }
         stage ('build'){
