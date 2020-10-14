@@ -23,17 +23,17 @@ pipeline {
                 )
                 
 
-                rtNpmResolver (
-                    id: "NPM_RESOLVER",
-                    serverId: "central1",
-                    repo: "aero-repo"
-                )
+                // rtNpmResolver (
+                //     id: "NPM_RESOLVER",
+                //     serverId: "central1",
+                //     repo: "aero-repo"
+                // )
 
-                rtNpmDeployer (
-                    id: "NPM_DEPLOYER",
-                    serverId: "central1",
-                    repo: "aero-repo"
-                )
+                // rtNpmDeployer (
+                //     id: "NPM_DEPLOYER",
+                //     serverId: "central1",
+                //     repo: "aero-repo"
+                // )
 
             }
 
@@ -97,15 +97,15 @@ pipeline {
         //     // )
         //     }
         // }
-        stage ('Exec npm publish') {
-            steps {
-                rtNpmPublish (
-                    tool: "nodejs", // Tool name from Jenkins configuration
-                    // path: "npm-example",
-                    deployerId: "NPM_DEPLOYER"
-                )
-            }
-        }
+        // stage ('Exec npm publish') {
+        //     steps {
+        //         rtNpmPublish (
+        //             tool: "nodejs", // Tool name from Jenkins configuration
+        //             // path: "npm-example",
+        //             deployerId: "NPM_DEPLOYER"
+        //         )
+        //     }
+        // }
         stage ('Publish build info') {
             steps {
                 rtPublishBuildInfo (
