@@ -50,19 +50,14 @@ pipeline {
             
             
         // }
-        // stage( 'install' ){
-        //     steps{
-        //         sh 'npm install'
-        //     }
-        // }
+        stage('install'){
+            steps{
+                sh 'npm install'
+            }
+        }
         stage ('build'){
             steps{
                 sh 'npm run build'
-            }
-        }
-        stage( 'install' ){
-            steps{
-                sh 'npm install'
             }
         }
         // stage ('package'){
