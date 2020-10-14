@@ -51,7 +51,7 @@ pipeline {
             
         // }
         stage('install'){
-            steps
+            steps{
                sh 'sudo npm install'
             }
         }
