@@ -19,7 +19,7 @@ pipeline {
                     // id: "central",
                     // url: "http://artifactory-aminsayogms.dev.stacklynx.com/artifactory",
                     // credentialsId: "bitbucket"
-                    def server = Artifactory.server 'central1'
+                    def server = Artifactory.server 'central'
                 )
                 
 
@@ -109,7 +109,7 @@ pipeline {
         stage ('Publish build info') {
             steps {
                 rtPublishBuildInfo (
-                    serverId: "central1"
+                    serverId: "central"
                 )
             }
         }
