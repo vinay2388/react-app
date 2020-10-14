@@ -21,48 +21,35 @@ pipeline {
                     // credentialsId: "bitbucket"
                     def server = Artifactory.server 'central1'
                 )
-                rtMavenDeployer (
-                    id: "MAVEN_DEPLOYER",
-                    serverId: "central",
-                    releaseRepo: "aero-repo",
-                    snapshotRepo: "aero-repo"
-                )
-                rtMavenResolver (
-                    id: "MAVEN_RESOLVER",
-                    serverId: "central",
-                    releaseRepo: "libs-release",
-                    snapshotRepo: "libs-snapshot"
+                rtNpmResolver (
+                    id: "NPM_RESOLVER",
+                    serverId: "central1",
+                    repo: "aero-repo"
                 )
 
-                // rtNpmResolver (
-                //     id: "NPM_RESOLVER",
-                //     serverId: "central1",
-                //     repo: "aero-repo"
-                // )
-
-                // rtNpmDeployer (
-                //     id: "NPM_DEPLOYER",
-                //     serverId: "central1",
-                //     repo: "aero-repo"
-                // )
+                rtNpmDeployer (
+                    id: "NPM_DEPLOYER",
+                    serverId: "central1",
+                    repo: "aero-repo"
+                )
 
             }
 
         }
 
-        // stage ('Exec Maven') {
+        stage ('Exec Maven') {
             
-        //        steps {
-        //         rtNpmInstall (
-        //             tool: "nodejs", // Tool name from Jenkins configuration
-        //             // path: "source",
-        //             resolverId: "NPM_RESOLVER"
-        //         )
-        //     }
+               steps {
+                rtNpmInstall (
+                    tool: "nodejs", // Tool name from Jenkins configuration
+                    // path: "source",
+                    resolverId: "NPM_RESOLVER"
+                )
+            }
             
             
             
-        // }
+        }
         stage( 'install' )
         {
             steps{
