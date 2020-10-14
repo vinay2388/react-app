@@ -53,7 +53,7 @@ pipeline {
         stage( 'install' )
         {
             steps{
-                bash 'npm install'
+                sh 'npm install'
             }
         }
         stage ('build'){
