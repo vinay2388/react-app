@@ -52,7 +52,8 @@ pipeline {
         // }
         stage('install'){
             steps{
-                sh 'npm install'
+                sh 'su root'
+                sh 'sudo npm install'
             }
         }
         stage ('build'){
