@@ -8,9 +8,9 @@ pipeline {
     //     }
     // }
     tools {nodejs "nodejs"}
-    environment {
-        CI = 'true' 
-    }
+    // environment {
+    //     CI = 'true' 
+    // }
     stages {
         
          stage ('Artifactory configuration') {
@@ -21,7 +21,18 @@ pipeline {
                     // credentialsId: "bitbucket"
                     def server = Artifactory.server 'central1'
                 )
-                
+                rtMavenDeployer (
+                    id: "MAVEN_DEPLOYER",
+                    serverId: "central",
+                    releaseRepo: "aero-repo",
+                    snapshotRepo: "aero-repo"
+                )
+                rtMavenResolver (
+                    id: "MAVEN_RESOLVER",
+                    serverId: "central",
+                    releaseRepo: "libs-release",
+                    snapshotRepo: "libs-snapshot"
+                )
 
                 // rtNpmResolver (
                 //     id: "NPM_RESOLVER",
