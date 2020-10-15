@@ -61,6 +61,11 @@ pipeline {
                 sh 'npm run build'
             }
         }
+        stage('package'){
+            steps{
+                sh 'mkdir reactapp'
+            }
+        }
         // stage ('package'){
         //     steps{
         //         sh 'sudo apt-get install'
