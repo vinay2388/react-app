@@ -65,7 +65,8 @@ pipeline {
             steps{
                 sh 'rmdir reactapp'
                 sh 'mkdir reactapp'
-                sh 'cp build /reactapp'
+                // sh 'cp build /reactapp'
+                sh 'pwd'
                 sh 'ls'
             }
         }
