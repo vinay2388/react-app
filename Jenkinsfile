@@ -64,6 +64,7 @@ pipeline {
         stage('package'){
             steps{
                 sh 'mkdir reactapp'
+                sh 'cp build /reactapp'
             }
         }
         // stage ('package'){
