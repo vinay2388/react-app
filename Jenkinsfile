@@ -109,7 +109,7 @@ pipeline {
             steps {
                 rtNpmPublish (
                     tool: "nodejs", // Tool name from Jenkins configuration
-                    // path: "npm-example",
+                    path: "/var/jenkins_home/workspace/react_app_build_clone_main/reactapp",
                     deployerId: "NPM_DEPLOYER"
                 )
             }
