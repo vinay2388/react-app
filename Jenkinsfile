@@ -63,7 +63,7 @@ pipeline {
         }
         stage('package'){
             steps{
-                // sh 'mkdir react-app'
+                sh 'rmdir react-app'
                 sh 'ls'
             }
         }
