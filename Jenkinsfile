@@ -21,31 +21,18 @@ pipeline {
                     // credentialsId: "bitbucket"
                     def server = Artifactory.server 'central1'
                 )
-                // rtNpmResolver (
-                //     id: "NPM_RESOLVER",
-                //     serverId: "central1",
-                //     repo: "aero-repo"
-                // )
-
-                // rtNpmDeployer (
-                //     id: "NPM_DEPLOYER",
-                //     serverId: "central1",
-                //     repo: "aero-repo"
-                // )
-                rtMavenDeployer (
-                    id: "MAVEN_DEPLOYER",
-                    serverId: "central",
-                    releaseRepo: "aero-repo",
-                    snapshotRepo: "aero-repo"
+                rtNpmResolver (
+                    id: "NPM_RESOLVER",
+                    serverId: "central1",
+                    repo: "aero-repo"
                 )
-                rtMavenResolver (
-                    id: "MAVEN_RESOLVER",
-                    serverId: "central",
-                    releaseRepo: "libs-release",
-                    snapshotRepo: "libs-snapshot"
-                )
-                
 
+                rtNpmDeployer (
+                    id: "NPM_DEPLOYER",
+                    serverId: "central1",
+                    repo: "aero-repo"
+                )
+            
             }
 
         }
@@ -63,27 +50,17 @@ pipeline {
             
             
         // }
-        stage ('Exec Maven') {
+       
+         stage('Build') { 
             steps {
-                rtMavenRun (
-                    tool: 'maven3.6.3', // Tool name from Jenkins configuration
-                    pom: 'pom.xml',
-                    goals: 'clean install',
-                    deployerId: "MAVEN_DEPLOYER",
-                    resolverId: "MAVEN_RESOLVER"
-                )
+                sh 'npm install' 
             }
         }
-        //  stage('Build') { 
-        //     steps {
-        //         sh 'npm install' 
-        //     }
-        // }
-        // stage ('build'){
-        //     steps{
-        //         sh 'npm run build'
-        //     }
-        // }
+        stage ('build'){
+            steps{
+                sh 'npm run build'
+            }
+        }
         // stage ('package'){
         //     steps{
         //         sh 'sudo apt-get install'
@@ -118,21 +95,21 @@ pipeline {
         //     // )
         //     }
         // }
-        // stage ('Exec npm publish') {
-        //     steps {
-        //         rtNpmPublish (
-        //             tool: "nodejs", // Tool name from Jenkins configuration
-        //             // path: "npm-example",
-        //             deployerId: "NPM_DEPLOYER"
-        //         )
-        //     }
-        // }
-        stage ('Publish build info') {
+        stage ('Exec npm publish') {
             steps {
-                rtPublishBuildInfo (
-                    serverId: "central"
+                rtNpmPublish (
+                    tool: "nodejs", // Tool name from Jenkins configuration
+                    // path: "npm-example",
+                    deployerId: "NPM_DEPLOYER"
                 )
             }
         }
+        // stage ('Publish build info') {
+        //     steps {
+        //         rtPublishBuildInfo (
+        //             serverId: "central"
+        //         )
+        //     }
+        // }
     }
 }
