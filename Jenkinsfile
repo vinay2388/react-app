@@ -107,7 +107,7 @@ pipeline {
         // stage ('Publish build info') {
         //     steps {
         //         rtPublishBuildInfo (
-        //             serverId: "central"
+        //             serverId: "central1"
         //         )
         //     }
         // }
