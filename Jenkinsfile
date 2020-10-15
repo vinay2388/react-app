@@ -66,7 +66,8 @@ pipeline {
                 sh 'rmdir reactapp'
                 sh 'mkdir reactapp'
                 sh 'mv build /var/jenkins_home/workspace/react_app_build_clone_main/reactapp'
-                sh 'pwd'
+                sh 'mv package.json /var/jenkins_home/workspace/react_app_build_clone_main/reactapp'
+                sh 'cd reactapp'
                 sh 'ls'
             }
         }
