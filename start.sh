@@ -1,3 +1,2 @@
-cd /opt/apps/
-cd /opt/apps/react
+cd /opt/apps/package
 serve -s build
