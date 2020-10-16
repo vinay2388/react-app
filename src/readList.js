@@ -97,7 +97,6 @@ class ReadList extends Component {
         )
     }
 }
-
 // function mapStateToProps(state) {
 //     return {
 //         categoryData: state.categoryData
