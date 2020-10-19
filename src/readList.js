@@ -16,7 +16,7 @@ class ReadList extends Component {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',
-                'Authorization': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InZpbG9jYWwiLCJ1c2VySWQiOiI1ZjFlNjBhZDViMTMxODAxOWRkZjY0YTQiLCJ0ZW5hbnRJZCI6IjVjZTY3Yzg1ZWU0ZmEyMDAyZjhlNDEwOCIsIm9yZ0lkIjoiNWNlNjdhNjllZTRmYTIwMDJmOGUwZjEwIiwiaWF0IjoxNjAyODI2OTE5LCJleHAiOjE2MDI4NTU3MTl9.Aaoj7b7O_ZwDtn35JW26KsWRtKOiDqrWM-8c1cAoO2FXZFQ7sMAFm7Y346Whlm2x8vO6KjJkjnxsVE-AxozboIbyq61zr1WxYsj8y3EbmMNOoAUU0Ouq6GN1F-gnBBwPG_sl_2WLlaMcXUzeMkHPbAItnIyH60NuVRN5JIxdBJR0Gk6hRTqeYQzYj9viwvpxIzjt0CZfygUWanAzmBdREcH2hSKVKrlUeoOsv0l9eI-G04EIw_oL9-twP1D-QLsAb9vtOmMKlX7USMQGjryBc2oL2RcwZYp-2z_3O76siSLhJV18XwcMWjDMMKyftJR_hSgMKrj2s90kafKZetyl4A',
+                'Authorization': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InZpbG9jYWwiLCJ1c2VySWQiOiI1ZjFlNjBhZDViMTMxODAxOWRkZjY0YTQiLCJ0ZW5hbnRJZCI6IjVjZTY3Yzg1ZWU0ZmEyMDAyZjhlNDEwOCIsIm9yZ0lkIjoiNWNlNjdhNjllZTRmYTIwMDJmOGUwZjEwIiwiaWF0IjoxNjAzMDgyNTQ0LCJleHAiOjE2MDMxMTEzNDR9.LIsUpZ2qUwUivPey_mFtmb9qLSeRQOrNtuZgFXFRx-ABiJjl5TqaQOepSB1dDTf9zsblqR7OXGLkeBjHMtE2RytBHzdbEdpodlBsW2F2MZBKFHmGkpevzc36WSTF0dTBp0G7C_IgYGn3OwNFStvE4W_9iIUwN5urOsNVNdiYIaY978caJ1v9pAiJicaJf1C9cNY6wyrvCJePPezU35xrVbD4S9N04IOTHfrMb7S0nQTqfF-v4aG8OUOquYM32BpZxB55FHZkXMg1GEA7Neq3NBNchCjgXyfyhoyo1tt0D8W1WguFLVGTZYTf4j0XTUR19louAhtaX9s4fopIC1FvMQ',
             }
         };
         fetch(`${process.env.REACT_APP_API_URL}/api/categories/`, requestOptions)
@@ -30,7 +30,7 @@ class ReadList extends Component {
             method: 'DELETE',
             headers: {
                 'Content-Type': 'application/json',
-                'Authorization': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InZpbG9jYWwiLCJ1c2VySWQiOiI1ZjFlNjBhZDViMTMxODAxOWRkZjY0YTQiLCJ0ZW5hbnRJZCI6IjVjZTY3Yzg1ZWU0ZmEyMDAyZjhlNDEwOCIsIm9yZ0lkIjoiNWNlNjdhNjllZTRmYTIwMDJmOGUwZjEwIiwiaWF0IjoxNjAyODI2OTE5LCJleHAiOjE2MDI4NTU3MTl9.Aaoj7b7O_ZwDtn35JW26KsWRtKOiDqrWM-8c1cAoO2FXZFQ7sMAFm7Y346Whlm2x8vO6KjJkjnxsVE-AxozboIbyq61zr1WxYsj8y3EbmMNOoAUU0Ouq6GN1F-gnBBwPG_sl_2WLlaMcXUzeMkHPbAItnIyH60NuVRN5JIxdBJR0Gk6hRTqeYQzYj9viwvpxIzjt0CZfygUWanAzmBdREcH2hSKVKrlUeoOsv0l9eI-G04EIw_oL9-twP1D-QLsAb9vtOmMKlX7USMQGjryBc2oL2RcwZYp-2z_3O76siSLhJV18XwcMWjDMMKyftJR_hSgMKrj2s90kafKZetyl4A',
+                'Authorization': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InZpbG9jYWwiLCJ1c2VySWQiOiI1ZjFlNjBhZDViMTMxODAxOWRkZjY0YTQiLCJ0ZW5hbnRJZCI6IjVjZTY3Yzg1ZWU0ZmEyMDAyZjhlNDEwOCIsIm9yZ0lkIjoiNWNlNjdhNjllZTRmYTIwMDJmOGUwZjEwIiwiaWF0IjoxNjAzMDgyNTQ0LCJleHAiOjE2MDMxMTEzNDR9.LIsUpZ2qUwUivPey_mFtmb9qLSeRQOrNtuZgFXFRx-ABiJjl5TqaQOepSB1dDTf9zsblqR7OXGLkeBjHMtE2RytBHzdbEdpodlBsW2F2MZBKFHmGkpevzc36WSTF0dTBp0G7C_IgYGn3OwNFStvE4W_9iIUwN5urOsNVNdiYIaY978caJ1v9pAiJicaJf1C9cNY6wyrvCJePPezU35xrVbD4S9N04IOTHfrMb7S0nQTqfF-v4aG8OUOquYM32BpZxB55FHZkXMg1GEA7Neq3NBNchCjgXyfyhoyo1tt0D8W1WguFLVGTZYTf4j0XTUR19louAhtaX9s4fopIC1FvMQ',
             }
         };
         fetch(`${process.env.REACT_APP_API_URL}/api/categories/` + data._id, requestOptions)
@@ -52,7 +52,7 @@ class ReadList extends Component {
             method: 'PATCH',
             headers: {
                 'Content-Type': 'application/json',
-                'Authorization': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InZpbG9jYWwiLCJ1c2VySWQiOiI1ZjFlNjBhZDViMTMxODAxOWRkZjY0YTQiLCJ0ZW5hbnRJZCI6IjVjZTY3Yzg1ZWU0ZmEyMDAyZjhlNDEwOCIsIm9yZ0lkIjoiNWNlNjdhNjllZTRmYTIwMDJmOGUwZjEwIiwiaWF0IjoxNjAyODI2OTE5LCJleHAiOjE2MDI4NTU3MTl9.Aaoj7b7O_ZwDtn35JW26KsWRtKOiDqrWM-8c1cAoO2FXZFQ7sMAFm7Y346Whlm2x8vO6KjJkjnxsVE-AxozboIbyq61zr1WxYsj8y3EbmMNOoAUU0Ouq6GN1F-gnBBwPG_sl_2WLlaMcXUzeMkHPbAItnIyH60NuVRN5JIxdBJR0Gk6hRTqeYQzYj9viwvpxIzjt0CZfygUWanAzmBdREcH2hSKVKrlUeoOsv0l9eI-G04EIw_oL9-twP1D-QLsAb9vtOmMKlX7USMQGjryBc2oL2RcwZYp-2z_3O76siSLhJV18XwcMWjDMMKyftJR_hSgMKrj2s90kafKZetyl4A',
+                'Authorization': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InZpbG9jYWwiLCJ1c2VySWQiOiI1ZjFlNjBhZDViMTMxODAxOWRkZjY0YTQiLCJ0ZW5hbnRJZCI6IjVjZTY3Yzg1ZWU0ZmEyMDAyZjhlNDEwOCIsIm9yZ0lkIjoiNWNlNjdhNjllZTRmYTIwMDJmOGUwZjEwIiwiaWF0IjoxNjAzMDgyNTQ0LCJleHAiOjE2MDMxMTEzNDR9.LIsUpZ2qUwUivPey_mFtmb9qLSeRQOrNtuZgFXFRx-ABiJjl5TqaQOepSB1dDTf9zsblqR7OXGLkeBjHMtE2RytBHzdbEdpodlBsW2F2MZBKFHmGkpevzc36WSTF0dTBp0G7C_IgYGn3OwNFStvE4W_9iIUwN5urOsNVNdiYIaY978caJ1v9pAiJicaJf1C9cNY6wyrvCJePPezU35xrVbD4S9N04IOTHfrMb7S0nQTqfF-v4aG8OUOquYM32BpZxB55FHZkXMg1GEA7Neq3NBNchCjgXyfyhoyo1tt0D8W1WguFLVGTZYTf4j0XTUR19louAhtaX9s4fopIC1FvMQ',
             },
             body: JSON.stringify(data)
         };
