@@ -45,11 +45,11 @@ pipeline {
         }
         stage('package'){
             steps{
-                sh 'rm -rf reactapp'
+                sh 'rm -rf react-app'
                 sh 'ls'
-                sh 'mkdir reactapp'
-                sh 'mv build /var/jenkins_home/workspace/react_app_build_clone_main/reactapp'
-                sh 'cp package.json /var/jenkins_home/workspace/react_app_build_clone_main/reactapp'
+                sh 'mkdir react-app'
+                sh 'mv build /var/jenkins_home/workspace/react_app_build_clone_main/react-app'
+                sh 'cp package.json /var/jenkins_home/workspace/react_app_build_clone_main/react-app'
                 
             }
         }
@@ -57,7 +57,7 @@ pipeline {
             steps {
                 rtNpmPublish (
                     tool: "nodejs", // Tool name from Jenkins configuration
-                    path: "/var/jenkins_home/workspace/react_app_build_clone_main/reactapp",
+                    path: "/var/jenkins_home/workspace/react_app_build_clone_main/react-app",
                     deployerId: "NPM_DEPLOYER"
                 )
             }
