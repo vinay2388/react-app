@@ -39,6 +39,7 @@ pipeline {
         // }
         stage ('build'){
             steps{
+                sh 'rm -rf build'
                 sh 'npm run build'
             }
         }
@@ -47,7 +48,6 @@ pipeline {
                 sh 'rm -rf reactapp'
                 sh 'ls'
                 sh 'mkdir reactapp'
-                
                 sh 'mv build /var/jenkins_home/workspace/react_app_build_clone_main/reactapp'
                 sh 'cp package.json /var/jenkins_home/workspace/react_app_build_clone_main/reactapp'
                 
